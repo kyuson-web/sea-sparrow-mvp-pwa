@@ -1,0 +1,18 @@
+html,body{margin:0;height:100%;overflow:hidden;background:#04121c;font-family:ui-monospace,Consolas,monospace}
+canvas{display:block}
+#hud{position:fixed;inset:0;pointer-events:none;color:#bfefff;text-shadow:0 0 6px #06202e}
+#hud-left{position:absolute;left:16px;top:14px;font-size:14px;line-height:1.7}
+#hud-right{position:absolute;right:16px;top:14px;text-align:right;font-size:13px}
+#hud-msg{position:absolute;left:50%;top:16px;transform:translateX(-50%);font-size:15px;color:#ffd166;letter-spacing:2px}
+#hud-hpbar{width:220px;height:10px;background:rgba(0,0,0,.5);border:1px solid #2b6c8a;margin-top:6px}
+#hud-hp{height:100%;width:100%;background:#38d57f}
+#minimap{margin-top:8px;background:rgba(3,18,28,.6);border:1px solid #2b6c8a;border-radius:6px}
+#crosshair{position:absolute;left:50%;top:50%;width:26px;height:26px;margin:-13px 0 0 -13px;border:1.5px solid rgba(160,240,255,.85);border-radius:50%}
+#crosshair:before,#crosshair:after{content:"";position:absolute;background:rgba(160,240,255,.85)}
+#crosshair:before{left:50%;top:-8px;width:1.5px;height:8px}
+#crosshair:after{top:50%;left:-8px;height:1.5px;width:8px}
+#overlay{position:fixed;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;background:rgba(2,10,18,.72);color:#dff6ff}
+#overlay.hidden{display:none}
+#overlay h1{font-size:44px;letter-spacing:4px;margin:0 0 10px}
+#overlay p{color:#9fd7ef}
+#overlay button{pointer-events:auto;background:#0a2b3d;color:#bfefff;border:1px solid #2b6c8a;border-radius:8px;padding:10px 22px;font-size:16px;cursor:pointer}
