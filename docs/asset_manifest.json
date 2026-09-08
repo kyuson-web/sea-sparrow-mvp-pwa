@@ -1,0 +1,16 @@
+{
+  "project": "sea-sparrow-mvp",
+  "version": "0.1.0",
+  "units": "meters",
+  "assets": [
+    { "path": "assets/images/icon_512.png",        "type": "ui",       "source": "generated / procedural fallback" },
+    { "path": "assets/images/icon_192.png",        "type": "ui",       "source": "generated / procedural fallback" },
+    { "path": "assets/images/splash_1920x1080.png","type": "ui",       "source": "generated / procedural fallback" },
+    { "path": "assets/images/ocean_tile.png",      "type": "texture",  "source": "generated / procedural fallback" },
+    { "path": "assets/images/ocean_normal.png",    "type": "texture",  "source": "procedural" },
+    { "path": "assets/images/concept_sea_sparrow.png", "type": "concept", "source": "design session art" },
+    { "path": "assets/images/concept_enemy_pact.png",  "type": "concept", "source": "design session art" },
+    { "path": "assets/models/", "type": "models", "source": "future glTF slot" },
+    { "path": "assets/audio/",  "type": "audio",  "source": "future sfx slot" }
+  ]
+}
