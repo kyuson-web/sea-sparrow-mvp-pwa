@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Sea Sparrow MVP</title>
+<link rel="icon" href="assets/images/icon_192.png"/>
+<link rel="stylesheet" href="css/style.css"/>
+<script type="importmap">
+{ "imports": { "three": "https://unpkg.com/three@0.160.0/build/three.module.js" } }
+</script>
+</head>
+<body>
+<div id="hud">
+  <div id="hud-left">
+    <div>SPD <span id="hud-speed">0</span> kn</div>
+    <div>HDG <span id="hud-hdg">000</span></div>
+    <div>SCORE <span id="hud-score">0</span></div>
+    <div id="hud-hpbar"><div id="hud-hp"></div></div>
+  </div>
+  <div id="hud-msg">PATROL THE ARCHIPELAGO</div>
+  <div id="hud-right">
+    <div id="hud-target">NO CONTACT</div>
+    <canvas id="minimap" width="170" height="170"></canvas>
+  </div>
+  <div id="crosshair"></div>
+</div>
+<div id="overlay" class="hidden">
+  <h1 id="ov-title">MISSION COMPLETE</h1>
+  <p id="ov-sub"></p>
+  <button id="ov-btn">RESTART</button>
+</div>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
